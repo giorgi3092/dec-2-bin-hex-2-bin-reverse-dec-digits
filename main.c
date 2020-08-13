@@ -27,6 +27,10 @@ int main()
 
     // reverses integer digits
     printf("%d\n", reverseTimeValue(12345));
+
+    // reverses integer digits in x86 assembly
+    printf("%d\n", reverseTimeValueA(12345));
+
     return 0;
 }
 
